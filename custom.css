@@ -1,0 +1,84 @@
+h1, h2, h3, h4, h5, h6
+{
+  font-family: 'Patrick Hand', cursive;
+}
+
+h1.title
+{
+  font-size: 6em;
+  color: rgb(38, 133, 163);
+  position: fixed;
+  top: 30%;
+  left: 45%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+h1.appName
+{
+  font-size: 3em;
+}
+
+h2.title
+{
+  font-size: 4em;
+  color: rgb(62, 163, 195);
+  position: fixed;
+  top: 40%;
+  left: 60%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+button.title
+{
+  font-family: 'Patrick Hand', cursive;
+  box-shadow: 3px 4px 15px #4962c7;
+  background-color: rgb(195, 229, 255);
+  border-radius: 13px;
+  font-size: 2.5em;
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transition: font-size 0.25s;
+}
+
+button.title:hover
+{
+  font-size: 3em;
+  transition: font-size 0.25s;
+}
+
+button.githubButton
+{
+  font-size: 1em;
+}
+
+h1.portfolio_header
+{
+  font-size: 6em;
+}
+
+blockquote.appQuote
+{
+  background-color: rgba(192, 222, 218, 0.48);
+  font-family: 'Patrick Hand', cursive;
+  font-size: 2.5em;
+  color: rgb(13, 49, 73);
+}
+
+p.appMain
+{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5em;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  background-color: rgba(192, 222, 218, 0.8);
+}
+
+body
+{
+  background-image: url("img/bg.png");
+}
